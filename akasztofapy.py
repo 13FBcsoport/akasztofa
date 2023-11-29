@@ -1,2 +1,2 @@
 print('akasztofa')
-charakter = input("Adj meg egy betűt")
+charakter = input("Adj meg egy betűt: ")
