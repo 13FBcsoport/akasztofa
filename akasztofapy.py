@@ -1,2 +1,2 @@
 print('akasztofa')
-uzenet=input
+uzenet=input("Kérek egy betut")
