@@ -1,1 +1,2 @@
 print('akasztofa')
+uzenet=input
