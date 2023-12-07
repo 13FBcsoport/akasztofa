@@ -1,3 +1,12 @@
 from akasztofapy import *
 
-print(beolvas("szavak.txt"))
+szavak=[]
+szavak=beolvas("szavak.txt")
+
+random_szo=sorsolo(szavak)
+print(random_szo)
+
+betu=input("Kérek egy betűt: ")
+
+vissza=betu_hely_kiiro(random_szo,betu)
+print(vissza)
