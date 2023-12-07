@@ -1,7 +1,14 @@
-
-def beolvas(fajlnev:str)->list:
+from random import choice
+def beolvas(fajlnev)->list:
+    szavak_listaja=[]
     fajl=open(fajlnev,"r" , encoding=("utf-8"))
-    for f in fajl:
-        szavak=f.strip(",")
+    for szo in fajl:
+        szavak_listaja.append(szo.strip)
+        print(szo.strip("\n"))
+    
     fajl.close()
-    return szavak
+    return szavak_listaja
+
+def randomszo(szavak: list):
+    szo = choice(szavak)
+    return szo
