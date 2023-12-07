@@ -1,3 +1,3 @@
 from akasztofapy import *
 
-beolvas("szavak.txt")
+print(beolvas("szavak.txt"))
