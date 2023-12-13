@@ -3,3 +3,16 @@ Albánia
 Algéria
 Amerikai Egyesült Államok
 Andorra
+Kutya
+Macska
+Kifli
+Kenyér
+Bal
+Jobb
+Fel
+Le
+Hátra
+Előre
+Eső
+Csoport
+Magyarország
