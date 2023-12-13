@@ -7,5 +7,13 @@ print(random_szo)
 
 kar = input("Kérem a betűt: ")
 
-vissza = betuhely_kiiro(random_szo, kar)
+szavak=[]
+szavak=beolvas("szavak.txt")
+
+random_szo=sorsolo(szavak)
+print(random_szo)
+
+betu=input("Kérek egy betűt: ")
+
+vissza=betu_hely_kiiro(random_szo,betu)
 print(vissza)

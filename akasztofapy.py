@@ -10,16 +10,17 @@ def beolvas(fajlnev)->list:
     return szavak_listaja
 
 def sorsolo(lista):
-    szo = choice(lista)
+    szo=choice(lista)
     return szo
 
-def betuhely_kiiro(szo, kar):
-    visszaad = ''
+def betu_hely_kiiro(szo,kar):
+    visszaad=""
     for betu in szo:
-        if betu.lower() == kar.lower():
-            print(betu, end=" ")
-            visszaad += betu
+        print("_",end=" ")
+        if betu.lower()==kar.lower():
+            print(betu,end=" ")
+            visszaad+=betu
         else:
-            print("_", end=" ")
-            visszaad += '_'
+            print("_",end=" ")
+            visszaad+="_"
     return visszaad
