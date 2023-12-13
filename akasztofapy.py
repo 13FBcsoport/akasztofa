@@ -1,8 +1,8 @@
 from random import choice
 
-def beolvas(fajlnev)->list:
+def beolvas(fajlnev) -> list:
     szavak_listaja=[]
-    fajl=open(fajlnev,"r" , encoding=("utf-8"))
+    fajl=open('szavak.txt', "r", encoding="utf-8")
     for szo in fajl:
         szavak_listaja.append(szo.strip("\n"))
     
@@ -17,10 +17,10 @@ def betu_hely_kiiro(szo,kar):
     visszaad=""
     for betu in szo:
         print("_",end=" ")
-        if betu.lower()==kar.lower():
+        if betu.lower() == kar.lower():
             print(betu,end=" ")
-            visszaad+=betu
+            visszaad += betu
         else:
             print("_",end=" ")
-            visszaad+="_"
+            visszaad += "_"
     return visszaad
