@@ -1,19 +1,19 @@
 from akasztofapy import *
 szavak = []
-szavak=beolvas("szavak.txt")
+szavak = beolvas("szavak.txt")
 
 random_szo = sorsolo(szavak)
 print(random_szo)
 
 kar = input("Kérem a betűt: ")
 
-szavak=[]
-szavak=beolvas("szavak.txt")
+szavak = []
+szavak = beolvas("szavak.txt")
 
-random_szo=sorsolo(szavak)
+random_szo = sorsolo(szavak)
 print(random_szo)
 
-betu=input("Kérek egy betűt: ")
+betu = input("Kérek egy betűt: ")
 
-vissza=betu_hely_kiiro(random_szo,betu)
+vissza = betu_hely_kiiro(random_szo,betu)
 print(vissza)
