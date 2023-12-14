@@ -42,7 +42,7 @@ def Akasztofa():
             tippek -= 1
         else:
             tippek -= 1
-            print("Rossz tipp! Próbálkozások száma:", tippek)
+            print("A betű nincs benne a szóban! Próbálkozások száma:", tippek)
             rossz_tippek.add(betu)
             print("Eddigi rossz tippek:", ", ".join(rossz_tippek))
             continue
@@ -57,4 +57,4 @@ def Akasztofa():
             print("Gratulálok, megfejtetted a szót!")
             return
     
-    print("Sajnálom, vesztettél. A helyes szó:", random_szo)
+    print("Sajnálom, Peti meghalt :(. A helyes szó:", random_szo)
