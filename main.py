@@ -1,2 +1,2 @@
 from akasztofapy import *
-jatek()
+Akasztofa()
